@@ -1,0 +1,55 @@
+# 編譯產出與目的檔
+*.o
+*.obj
+*.out
+*.app
+*.i
+*.s
+*.d
+
+# 靜態與動態函式庫
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# 執行檔
+*.exe
+bin/
+build/
+out/
+target/
+
+# 偵錯符號與核心傾印
+*.dSYM/
+*.su
+*.idb
+*.pdb
+core
+core.*
+vgcore.*
+
+# 測試與程式碼涵蓋率
+*.gcda
+*.gcno
+*.gcov
+coverage/
+
+# 編輯器與 IDE 設定檔
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 建構系統產物（CMake / Make）
+Makefile
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
